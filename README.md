@@ -1,0 +1,2 @@
+# portifolio
+ Repositório do meu site de portfólio pessoal  Este repositório contém o código-fonte do meu site de portfólio pessoal, um espaço onde eu compartilho minhas habilidades e experiências como engenheiro de software. O site foi construído com HTML, CSS e JavaScript, com foco em design clean, responsividade e facilidade de uso.  O que você encontrará aqui  Código-fonte do meu site de portfólio pessoal Projetos e experiências como engenheiro de software Informações sobre mim e minha jornada como desenvolvedor
