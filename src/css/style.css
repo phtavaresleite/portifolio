@@ -142,18 +142,23 @@ body {
 }
 
 .projetos .projeto {
-  max-width: 260px;
-  max-height: 500px;
+  width: 320px;
   position: relative;
   display: none;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .projetos .projeto.ativo {
   display: block;
 }
 
-.projeto .projeto img {
-  height: 100%;
+.projetos .projeto img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .projetos .projeto h3 {
@@ -164,6 +169,8 @@ body {
   padding-top: 10px;
   position: absolute;
   bottom: 0;
+  margin: 0;
+  font-size: 18px;
 }
 
 .projetos .projeto .informacoes-projeto {
@@ -175,11 +182,32 @@ body {
   opacity: 0;
   transition: 0.3s;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.projetos .projeto .informacoes-projeto p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.projetos .projeto .informacoes-projeto .tech {
+  font-size: 12.5px;
+  font-weight: 400;
+  color: var(--roxo-claro);
+}
+
+.projetos .projeto:hover h3 {
+  visibility: hidden;
 }
 
 .projetos .conteiner-projetos .projeto:hover .informacoes-projeto {
-  opacity: 0.7;
-  background-color: #000;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .projetos .btn-mostrar-projetos {

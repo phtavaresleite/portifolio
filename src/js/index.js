@@ -1,13 +1,17 @@
 const botao = document.querySelector(".btn-mostrar-projetos");
 const projetosInativos = document.querySelectorAll(".projeto:not(.ativo)");
 
-botao.addEventListener("click", () => {
-  if (botao.textContent === "Mostrar Menos") {
-    ocultarItens();
-  } else {
-    mostrarItens();
-  }
-});
+if (!botao || projetosInativos.length === 0) {
+  if (botao) botao.style.display = "none";
+} else {
+  botao.addEventListener("click", () => {
+    if (botao.textContent === "Mostrar Menos") {
+      ocultarItens();
+    } else {
+      mostrarItens();
+    }
+  });
+}
 
 function mostrarItens() {
   projetosInativos.forEach((projetosInativo) => {
@@ -21,4 +25,4 @@ function ocultarItens() {
     projetosInativo.classList.remove("ativo");
   });
   botao.textContent = "Mostrar Mais";
-};  
+}
