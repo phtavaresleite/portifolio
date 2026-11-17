@@ -19,6 +19,10 @@
   .projetos .conteiner-projetos {
     padding: 0 30px;
   }
+
+  .stack .grupos-stack {
+    padding: 0 30px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -36,5 +40,19 @@
 
   .projetos {
     padding: 30px;
+  }
+
+  .titulo {
+    font-size: 30px;
+    padding: 30px 0;
+  }
+
+  .stack .grupos-stack {
+    padding: 0 20px;
+  }
+
+  .home .informacoes .cargo {
+    font-size: 18px;
+    letter-spacing: 2px;
   }
 }

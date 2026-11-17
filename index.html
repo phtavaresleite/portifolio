@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paulo Henrique Tavares Leite - Engenheiro de Software</title>
+    <title>Paulo Henrique Tavares Leite - AI Software Engineer</title>
+    <meta name="description"
+        content="Portfólio de Paulo Henrique Tavares Leite, AI Software Engineer: produtos com inteligência artificial, Python, Django, React e análise de dados.">
+    <meta name="author" content="Paulo Henrique Tavares Leite">
 
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
@@ -30,6 +33,9 @@
         <nav class="menu">
             <ul>
                 <li>
+                    <a href="#stack">Stack</a>
+                </li>
+                <li>
                     <a href="#projetos">Meus projetos</a>
                 </li>
             </ul>
@@ -39,10 +45,10 @@
     <section class="home">
         <div class="informacoes">
             <h1>Olá! Sou Paulo Henrique</h1>
-            <p>Engenheiro de Software em formação, movido pela paixão por tecnologia e inovação. 
-            </p>
-            <p>Gosto de me desafiar constantemente com novos projetos, sempre buscando oportunidades para aprender e evoluir.</p>
-            <p>Além do universo da tecnologia, sou um entusiasta de jogos, filmes, séries e animes, sempre buscando inspiração em diferentes formas de entretenimento.</p>
+            <p class="cargo">AI Software Engineer</p>
+            <p>Construo produtos de ponta a ponta com inteligência artificial: da API e dos dados até a interface que o usuário final usa.</p>
+            <p>Meu foco é aplicar IA a dados reais — previsão, detecção de anomalias e insights automáticos — em aplicações web completas com Python, Django e React.</p>
+            <p>Fora do código, sou entusiasta de jogos, filmes, séries e animes, sempre buscando inspiração em diferentes formas de entretenimento.</p>
 
             <ul class="redes-sociais">
                 <li>
@@ -66,6 +72,58 @@
         </div>
     </section>
 
+    <section class="stack" id="stack">
+        <h2 class="titulo">
+            STACK &amp; IA
+        </h2>
+
+        <div class="grupos-stack">
+            <div class="grupo">
+                <h3><i class="fas fa-brain"></i> IA &amp; Dados</h3>
+                <ul class="tags">
+                    <li>IA aplicada a dados</li>
+                    <li>Previsão de fluxo de caixa</li>
+                    <li>Detecção de anomalias</li>
+                    <li>Insights automáticos</li>
+                    <li>Pandas · NumPy</li>
+                </ul>
+            </div>
+
+            <div class="grupo">
+                <h3><i class="fas fa-server"></i> Backend</h3>
+                <ul class="tags">
+                    <li>Python</li>
+                    <li>Django · DRF</li>
+                    <li>APIs REST · JWT</li>
+                    <li>PHP · Laravel</li>
+                    <li>PostgreSQL · MySQL</li>
+                </ul>
+            </div>
+
+            <div class="grupo">
+                <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                <ul class="tags">
+                    <li>React</li>
+                    <li>TypeScript</li>
+                    <li>Vite</li>
+                    <li>TailwindCSS</li>
+                    <li>HTML · CSS</li>
+                </ul>
+            </div>
+
+            <div class="grupo">
+                <h3><i class="fas fa-toolbox"></i> Prática &amp; Entrega</h3>
+                <ul class="tags">
+                    <li>Docker</li>
+                    <li>Git</li>
+                    <li>Testes automatizados</li>
+                    <li>Automação de processos</li>
+                    <li>Android nativo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <section class="projetos" id="projetos">
         <h2 class="titulo">
             MEUS PROJETOS
@@ -73,12 +131,12 @@
 
         <div class="conteiner-projetos">
             <div class="projeto ativo">
-                <a href="https://github.com/phtavaresleite/HamburgueriaZ" target="_blank" rel="noopener">
-                    <img src="./src/img/projetos/HamburgueriaZ.png" alt="HamburgueriaZ - App Android para pedidos de hambúrguer">
-                    <h3>HamburgueriaZ</h3>
+                <a href="https://github.com/phtavaresleite/financeAI" target="_blank" rel="noopener">
+                    <img src="./src/img/projetos/financeAI.png" alt="financeAI - SaaS de gestão financeira com inteligência artificial">
+                    <h3>FinanceAI</h3>
                     <div class="informacoes-projeto">
-                        <p>App Android nativo em Java para pedidos de hambúrguer, com cálculo automático de preços e envio do pedido por e-mail.</p>
-                        <p class="tech">Java · Android SDK · Material Design</p>
+                        <p>SaaS de gestão financeira com IA: previsão de fluxo de caixa, detecção de anomalias e insights automáticos para pequenos negócios.</p>
+                        <p class="tech">Python · Django · React · IA</p>
                         <p>🔗 Ver no GitHub</p>
                     </div>
                 </a>
@@ -89,7 +147,7 @@
                     <img src="./src/img/projetos/pdfprocessor.png" alt="pdfprocessor - Gerador de PDF consolidado de holerites e espelho de ponto">
                     <h3>Processador DP</h3>
                     <div class="informacoes-projeto">
-                        <p>App desktop em Python que gera um PDF consolidado com espelho de ponto e holerites de cada funcionário, com processamento paralelo.</p>
+                        <p>Automação em Python que monta um PDF consolidado com espelho de ponto e holerites de cada funcionário, com processamento paralelo.</p>
                         <p class="tech">Python · pypdf · pdfplumber · Tkinter</p>
                         <p>🔗 Ver no GitHub</p>
                     </div>
@@ -97,12 +155,12 @@
             </div>
 
             <div class="projeto ativo">
-                <a href="https://github.com/phtavaresleite/financeAI" target="_blank" rel="noopener">
-                    <img src="./src/img/projetos/financeAI.png" alt="financeAI - SaaS de gestão financeira com inteligência artificial">
-                    <h3>FinanceAI</h3>
+                <a href="https://github.com/phtavaresleite/HamburgueriaZ" target="_blank" rel="noopener">
+                    <img src="./src/img/projetos/HamburgueriaZ.png" alt="HamburgueriaZ - App Android para pedidos de hambúrguer">
+                    <h3>HamburgueriaZ</h3>
                     <div class="informacoes-projeto">
-                        <p>SaaS completo de controle financeiro com IA para pequenos negócios: API REST com JWT, dashboards e gráficos, pronto para Docker.</p>
-                        <p class="tech">Django · React · TypeScript · Tailwind</p>
+                        <p>App Android nativo em Java para pedidos de hambúrguer, com cálculo automático de preços e envio do pedido por e-mail.</p>
+                        <p class="tech">Java · Android SDK · Material Design</p>
                         <p>🔗 Ver no GitHub</p>
                     </div>
                 </a>
