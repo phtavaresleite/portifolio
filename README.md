@@ -1,79 +1,95 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
+# Portfólio — Paulo Henrique Tavares Leite
 
-<header>
-    <h1>Bem-vindo ao meu Portfólio! 🚀</h1>
-</header>
+![Cargo](https://img.shields.io/badge/cargo-AI%20Software%20Engineer-9443db)
+![Stack](https://img.shields.io/badge/stack-Python%20%C2%B7%20Django%20%C2%B7%20React-333)
+![Site](https://img.shields.io/badge/site-GitHub%20Pages-9443db)
+![Licença](https://img.shields.io/badge/licença-MIT-green)
 
-<section>
-    <h2>Sobre este Repositório</h2>
-    <p>Este repositório contém o código-fonte do meu site de portfólio pessoal, um espaço onde eu compartilho minhas habilidades e experiências como engenheiro de software. O site foi construído com HTML, CSS e JavaScript, com foco em design clean, responsividade e facilidade de uso.</p>
-</section>
+> Site no ar: **[phtavaresleite.github.io/portifolio](https://phtavaresleite.github.io/portifolio/)**
 
-<section>
-    <h2>Funcionalidades</h2>
-    <ul>
-        <li>Seção Inicial: Conheça um pouco sobre mim e minha jornada como engenheiro de software.</li>
-        <li>Seção de Projetos: Explore meus projetos, com descrições, imagens e links para GitHub Pages.</li>
-        <li>Links de Redes Sociais: Conecte-se comigo no LinkedIn, WhatsApp e GitHub.</li>
-        <li>Design Responsivo: O site é otimizado para vários dispositivos e tamanhos de tela.</li>
-    </ul>
-</section>
+Repositório do meu site de portfólio pessoal, onde apresento minha trajetória e os
+projetos que desenvolvi — com foco em **IA aplicada a dados** e produtos web de ponta a ponta.
 
-<section>
-    <h2>Tecnologias Utilizadas</h2>
-    <ul>
-        <li><strong>Front-end:</strong> HTML, CSS, JavaScript</li>
-        <li><strong>Frameworks CSS:</strong> Nenhum (CSS customizado)</li>
-        <li><strong>Bibliotecas:</strong> Font Awesome, DevIcons</li>
-        <li><strong>Fontes:</strong> Poppins, Raleway (do Google Fonts)</li>
-    </ul>
-</section>
+## Sobre o site
 
-<section>
-    <h2>Iniciando</h2>
-    <p>Para executar o site localmente, basta abrir o arquivo <code>index.html</code> no seu navegador favorito. Certifique-se de atualizar os caminhos de arquivo nos arquivos HTML e CSS se você mover o projeto para um diretório diferente.</p>
-</section>
+O site é construído com **HTML, CSS e JavaScript puros**, sem frameworks, com foco em
+design clean, responsividade e leveza.
 
-<section>
-    <h2>Contribuindo</h2>
-    <p>Este é um projeto pessoal, mas eu aprecio qualquer feedback ou sugestão que você possa ter. Se você gostaria de contribuir, por favor abra uma issue ou envie um pull request.</p>
-</section>
+- **Seção inicial** — apresentação e cargo de *AI Software Engineer*
+- **Stack & IA** — grupos de tecnologias: IA & Dados, Backend, Frontend e Prática & Entrega
+- **Projetos** — cards com imagem, descrição, stack e link para o repositório, com botão "Mostrar Mais"
+- **Redes sociais** — LinkedIn, WhatsApp e GitHub
+- **Responsivo** — adaptado para desktop, tablet e mobile
 
-<section>
-    <h2>Licença</h2>
-    <p>Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para detalhes.</p>
-</section>
+## Stack & IA
 
-<section>
-    <h2>Autor</h2>
-    <p><strong>Paulo Henrique Tavares Leite</strong> - Engenheiro de software em formação, movido pela paixão por tecnologia e inovação.</p>
-</section>
+| Área | Tecnologias |
+| --- | --- |
+| **IA & Dados** | IA aplicada a dados, previsão de fluxo de caixa (WMA), detecção de anomalias (Z-Score), insights automáticos, Pandas · NumPy |
+| **Backend** | Python, Django · Django REST Framework, APIs REST com JWT, PHP · Laravel, PostgreSQL · MySQL |
+| **Frontend** | React, TypeScript, Vite, TailwindCSS, HTML · CSS |
+| **Prática & Entrega** | Docker, Git, testes automatizados, automação de processos, Android nativo |
 
-<section>
-    <h2>Agradecimentos</h2>
-    <ul>
-        <li>Placehold.co pelas imagens placeholder</li>
-        <li>Google Fonts pelas famílias de fontes</li>
-        <li>Font Awesome e DevIcons pelos ícones</li>
-    </ul>
-</section>
+## Projetos em destaque
 
-<footer>
-    <p>Fique Conectado</p>
-    <div class="social-icons">
-        <a href="https://linkedin.com/in/ph-tavaresleite" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://wa.me/5537935051388" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://github.com/phtavaresleite" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
-    <p>Obrigado por visitar meu portfólio! 😊</p>
-    <p>Espero que você tenha gostado do que viu! Se tiver alguma dúvida ou quiser conversar sobre tecnologia, não hesite em <a href="https://linkedin.com/in/ph-tavaresleite" target="_blank">entrar em contato</a>.</p>
-</footer>
+| Projeto | Descrição | Stack |
+| --- | --- | --- |
+| [**FinanceAI**](https://github.com/phtavaresleite/financeAI) | SaaS de gestão financeira com IA: previsão de fluxo de caixa, detecção de anomalias e insights automáticos para pequenos negócios. | Python · Django · React · IA |
+| [**Processador DP**](https://github.com/phtavaresleite/pdfprocessor) | Automação que monta um PDF consolidado com espelho de ponto e holerites de cada funcionário, com processamento paralelo. | Python · pypdf · pdfplumber · Tkinter |
+| [**HamburgueriaZ**](https://github.com/phtavaresleite/HamburgueriaZ) | App Android nativo para pedidos de hambúrguer, com cálculo automático de preços e envio do pedido por e-mail. | Java · Android SDK · Material Design |
+| [**pdftogether**](https://github.com/phtavaresleite/pdftogether) | Aplicação Laravel para upload e mesclagem de múltiplos PDFs em um único arquivo, com serviço dedicado e testes PHPUnit. | Laravel · PHP · Blade · PHPUnit |
+| [**Projeto de Extensão II**](https://github.com/phtavaresleite/projeto_extensao) | Solução para modernizar a infraestrutura de uma instituição: rede com DHCP, armazenamento em nuvem e sistema web. | Laravel · MySQL · Rede · Cloud |
 
-</body>
-</html>
+## Estrutura do repositório
+
+```text
+portifolio/
+├── index.html            # Página principal
+├── src/
+│   ├── css/
+│   │   ├── reset.css     # Reset de estilos
+│   │   ├── style.css     # Estilos principais
+│   │   └── reponsivo.css # Media queries
+│   ├── js/
+│   │   └── index.js      # Botão "Mostrar Mais/Menos"
+│   └── img/
+│       └── projetos/     # Imagens de capa dos projetos
+├── LICENSE               # Licença MIT
+└── README.md
+```
+
+## Como rodar localmente
+
+Não há build nem dependências. Basta abrir o arquivo no navegador:
+
+```bash
+git clone https://github.com/phtavaresleite/portifolio.git
+cd portifolio
+# abra index.html no navegador
+```
+
+Ou suba um servidor estático, se preferir:
+
+```bash
+python3 -m http.server 8000
+# acesse http://localhost:8000
+```
+
+## Tecnologias do site
+
+- **Linguagens:** HTML5, CSS3, JavaScript (ES6)
+- **Ícones:** Font Awesome, DevIcons
+- **Fontes:** Poppins e Raleway (Google Fonts)
+- **Estilos:** CSS customizado, sem frameworks
+
+## Contato
+
+- **LinkedIn:** [linkedin.com/in/ph-tavaresleite](https://linkedin.com/in/ph-tavaresleite)
+- **GitHub:** [github.com/phtavaresleite](https://github.com/phtavaresleite)
+- **WhatsApp:** [wa.me/5537935051388](https://wa.me/5537935051388)
+
+Feedback e sugestões são bem-vindos — abra uma issue ou envie um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a **Licença MIT**. Veja o arquivo [LICENSE](LICENSE) para detalhes.
