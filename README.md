@@ -34,6 +34,8 @@ design clean, responsividade e leveza.
 
 | Projeto | Descrição | Stack |
 | --- | --- | --- |
+| [**PontoAudit AI**](https://ponto-audit.vercel.app/) 🌐 | Plataforma de auditoria de ponto CLT: importa folhas de ponto em PDF (200+ páginas) com extração 100% local em WebAssembly e emite parecer fundamentado na CLT via serverless. | Next.js · WebAssembly · IA · Vercel |
+| [**Camargos Odontologia**](https://camargos-odontologia.vercel.app/) 🌐 | Site institucional de clínica odontológica com agendamento online, tratamentos, diferenciais e design autoral responsivo. | Next.js · React · TypeScript · Tailwind |
 | [**FinanceAI**](https://github.com/phtavaresleite/financeAI) | SaaS de gestão financeira com IA: previsão de fluxo de caixa, detecção de anomalias e insights automáticos para pequenos negócios. | Python · Django · React · IA |
 | [**Processador DP**](https://github.com/phtavaresleite/pdfprocessor) | Automação que monta um PDF consolidado com espelho de ponto e holerites de cada funcionário, com processamento paralelo. | Python · pypdf · pdfplumber · Tkinter |
 | [**HamburgueriaZ**](https://github.com/phtavaresleite/HamburgueriaZ) | App Android nativo para pedidos de hambúrguer, com cálculo automático de preços e envio do pedido por e-mail. | Java · Android SDK · Material Design |
